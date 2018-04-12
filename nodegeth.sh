@@ -2,7 +2,7 @@
 
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get install make gcc musl-dev git build-essential
+sudo apt-get install make gcc musl-dev git build-essential -y
 sudo curl -O https://storage.googleapis.com/golang/go1.10.1.linux-amd64.tar.gz
 sudo tar -xvf go1.10.1.linux-amd64.tar.gz
 sudo mv go /usr/local
